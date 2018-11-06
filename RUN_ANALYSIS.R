@@ -53,5 +53,5 @@ groupedData <- group_by(MeanStdData, Activity, Subject)
 tinyData <- summarize_all(groupedData, mean)
 
 ## writing the table presenting tiny data.
-write.table(tinyData, file = "./tinyData.table", row.names = FALSE, col.names = TRUE)
+write.table(tinyData, file = "./tinyData.txt", row.names = FALSE, col.names = TRUE)
 
