@@ -1,10 +1,10 @@
-**Dataset
+# Dataset
 
 The dataset present the average and standard deviation of sensor signal in 33 features from experiments with 6 different activities and 30 subjects.
 Therefore, this dataset is composed of 180 row and 68 column
 6 Activity levels includes "WALKING" "WALKING_UPSTAIRS" "WALING_DOWNSTAIRS" "SITTING" "STANDING" "LAYING"
 
-**Variables of tiny dataset
+## Variables of tiny dataset
 
 There are 68 variables in the tiny data set including activity, subject, and 33 averages and 33 standard deviations of features)
 [1] "Activity"                                       "Subject"                                        "timeBodyaccelerometer-mean()-X"                
@@ -31,16 +31,16 @@ There are 68 variables in the tiny data set including activity, subject, and 33 
 [64] "frequencyBodyaccelerometerJerkmagnitude-std()"  "frequencyBodygyroscopemagnitude-mean()"         "frequencyBodygyroscopemagnitude-std()"         
 [67] "frequencyBodygyroscopeJerkmagnitude-mean()"     "frequencyBodygyroscopeJerkmagnitude-std()"
 
-**Observations of tiny dataset
+## Observations of tiny dataset
 
 There are 180 observation from 6 activites of 30 subjects.
 
-**Terms of variables
+## Terms of variables
 
 mean() is average of observations grouped by activity and subject
 std() is standard deviation of observations grouped by activity and subject
 
-**Transformation from original dataset
+## Transformation from original dataset
 
 1. Data from training set and test set was merged to each varaibles(activity, subject, features) dataset.
 2. Datasets including activity, subject, and features were merged into one dataset.
